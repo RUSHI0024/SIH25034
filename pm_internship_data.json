@@ -1,0 +1,1165 @@
+{
+  "sectors": [
+    {
+      "id": "automotive",
+      "name": "Automotive",
+      "description": "Vehicle manufacturing, automotive parts, electric vehicles",
+      "skills": [
+        "Mechanical Engineering",
+        "Electronics",
+        "Manufacturing",
+        "Quality Control",
+        "Design"
+      ]
+    },
+    {
+      "id": "banking_finance",
+      "name": "Banking & Financial Services",
+      "description": "Banking operations, financial analysis, insurance, fintech",
+      "skills": [
+        "Finance",
+        "Accounting",
+        "Customer Service",
+        "Data Analysis",
+        "Risk Management"
+      ]
+    },
+    {
+      "id": "oil_gas_energy",
+      "name": "Oil, Gas & Energy",
+      "description": "Energy production, renewable energy, oil & gas operations",
+      "skills": [
+        "Engineering",
+        "Environmental Science",
+        "Project Management",
+        "Safety Management",
+        "Operations"
+      ]
+    },
+    {
+      "id": "travel_hospitality",
+      "name": "Travel & Hospitality",
+      "description": "Tourism, hotels, travel services, event management",
+      "skills": [
+        "Customer Service",
+        "Event Management",
+        "Marketing",
+        "Operations",
+        "Languages"
+      ]
+    },
+    {
+      "id": "healthcare",
+      "name": "Healthcare",
+      "description": "Medical services, pharmaceuticals, health technology",
+      "skills": [
+        "Medical Knowledge",
+        "Patient Care",
+        "Research",
+        "Data Analysis",
+        "Healthcare Management"
+      ]
+    },
+    {
+      "id": "it_software",
+      "name": "IT & Software Development",
+      "description": "Software development, IT services, digital solutions",
+      "skills": [
+        "Programming",
+        "Web Development",
+        "Database Management",
+        "Cybersecurity",
+        "Cloud Computing"
+      ]
+    },
+    {
+      "id": "manufacturing",
+      "name": "Manufacturing & Industrial",
+      "description": "Industrial production, manufacturing processes, quality control",
+      "skills": [
+        "Manufacturing",
+        "Quality Control",
+        "Operations Management",
+        "Engineering",
+        "Logistics"
+      ]
+    },
+    {
+      "id": "agriculture",
+      "name": "Agriculture",
+      "description": "Farming, agricultural technology, food processing",
+      "skills": [
+        "Agricultural Knowledge",
+        "Research",
+        "Technology",
+        "Supply Chain",
+        "Sustainability"
+      ]
+    },
+    {
+      "id": "retail_consumer",
+      "name": "Retail & Consumer Goods",
+      "description": "Retail operations, consumer products, e-commerce",
+      "skills": [
+        "Sales",
+        "Marketing",
+        "Customer Service",
+        "Operations",
+        "E-commerce"
+      ]
+    },
+    {
+      "id": "textile",
+      "name": "Textile & Garments",
+      "description": "Textile manufacturing, garment production, fashion",
+      "skills": [
+        "Design",
+        "Manufacturing",
+        "Quality Control",
+        "Fashion",
+        "Supply Chain"
+      ]
+    }
+  ],
+  "states_districts": {
+    "Andhra Pradesh": [
+      "Visakhapatnam",
+      "Vijayawada",
+      "Guntur",
+      "Nellore",
+      "Kurnool"
+    ],
+    "Bihar": [
+      "Patna",
+      "Gaya",
+      "Bhagalpur",
+      "Muzaffarpur",
+      "Purnia"
+    ],
+    "Gujarat": [
+      "Ahmedabad",
+      "Surat",
+      "Vadodara",
+      "Rajkot",
+      "Bharuch"
+    ],
+    "Haryana": [
+      "Gurugram",
+      "Faridabad",
+      "Panipat",
+      "Ambala",
+      "Karnal"
+    ],
+    "Karnataka": [
+      "Bangalore",
+      "Mysore",
+      "Hubli",
+      "Mangalore",
+      "Belgaum"
+    ],
+    "Kerala": [
+      "Kochi",
+      "Thiruvananthapuram",
+      "Kozhikode",
+      "Thrissur",
+      "Kollam"
+    ],
+    "Maharashtra": [
+      "Mumbai",
+      "Pune",
+      "Nagpur",
+      "Nashik",
+      "Aurangabad"
+    ],
+    "Punjab": [
+      "Ludhiana",
+      "Amritsar",
+      "Jalandhar",
+      "Patiala",
+      "Bathinda"
+    ],
+    "Rajasthan": [
+      "Jaipur",
+      "Jodhpur",
+      "Kota",
+      "Bikaner",
+      "Udaipur"
+    ],
+    "Tamil Nadu": [
+      "Chennai",
+      "Coimbatore",
+      "Madurai",
+      "Salem",
+      "Tiruchirappalli"
+    ],
+    "Uttar Pradesh": [
+      "Lucknow",
+      "Kanpur",
+      "Agra",
+      "Varanasi",
+      "Allahabad"
+    ],
+    "West Bengal": [
+      "Kolkata",
+      "Howrah",
+      "Durgapur",
+      "Asansol",
+      "Siliguri"
+    ],
+    "Jharkhand": [
+      "Ranchi",
+      "Jamshedpur",
+      "Dhanbad",
+      "Bokaro",
+      "Deoghar"
+    ],
+    "Odisha": [
+      "Bhubaneswar",
+      "Cuttack",
+      "Rourkela",
+      "Berhampur",
+      "Sambalpur"
+    ],
+    "Madhya Pradesh": [
+      "Bhopal",
+      "Indore",
+      "Jabalpur",
+      "Gwalior",
+      "Ujjain"
+    ],
+    "Chhattisgarh": [
+      "Raipur",
+      "Bhilai",
+      "Korba",
+      "Bilaspur",
+      "Durg"
+    ]
+  },
+  "education_levels": [
+    {
+      "id": "10th",
+      "name": "Class 10th Pass",
+      "weight": 1
+    },
+    {
+      "id": "12th",
+      "name": "Class 12th Pass",
+      "weight": 2
+    },
+    {
+      "id": "iti",
+      "name": "ITI Certificate",
+      "weight": 3
+    },
+    {
+      "id": "diploma",
+      "name": "Diploma/Polytechnic",
+      "weight": 4
+    },
+    {
+      "id": "graduation",
+      "name": "Bachelor's Degree",
+      "weight": 5
+    }
+  ],
+  "common_skills": [
+    "Communication",
+    "Computer Basics",
+    "Customer Service",
+    "Teamwork",
+    "Problem Solving",
+    "Time Management",
+    "Basic English",
+    "Hindi",
+    "Regional Language",
+    "Mathematics",
+    "Sales",
+    "Marketing",
+    "Data Entry",
+    "MS Office",
+    "Internet Usage",
+    "Mobile Apps"
+  ],
+  "sample_internships": [
+    {
+      "id": "INT_001",
+      "title": "Associate Officer",
+      "company": "India Corp",
+      "sector": {
+        "id": "textile",
+        "name": "Textile & Garments",
+        "description": "Textile manufacturing, garment production, fashion",
+        "skills": [
+          "Design",
+          "Manufacturing",
+          "Quality Control",
+          "Fashion",
+          "Supply Chain"
+        ]
+      },
+      "location": {
+        "state": "Madhya Pradesh",
+        "district": "Indore"
+      },
+      "education_required": {
+        "id": "10th",
+        "name": "Class 10th Pass",
+        "weight": 1
+      },
+      "skills_required": [
+        "Quality Control",
+        "Problem Solving",
+        "Regional Language",
+        "Fashion",
+        "Design"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Hybrid",
+      "description": "Internship opportunity in Textile & Garments sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_002",
+      "title": "Junior Executive",
+      "company": "Prime Industries",
+      "sector": {
+        "id": "retail_consumer",
+        "name": "Retail & Consumer Goods",
+        "description": "Retail operations, consumer products, e-commerce",
+        "skills": [
+          "Sales",
+          "Marketing",
+          "Customer Service",
+          "Operations",
+          "E-commerce"
+        ]
+      },
+      "location": {
+        "state": "Uttar Pradesh",
+        "district": "Kanpur"
+      },
+      "education_required": {
+        "id": "iti",
+        "name": "ITI Certificate",
+        "weight": 3
+      },
+      "skills_required": [
+        "Hindi",
+        "Mobile Apps",
+        "Sales",
+        "Operations",
+        "Regional Language"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Part-time",
+      "description": "Internship opportunity in Retail & Consumer Goods sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_003",
+      "title": "Associate Assistant",
+      "company": "Global Corp",
+      "sector": {
+        "id": "healthcare",
+        "name": "Healthcare",
+        "description": "Medical services, pharmaceuticals, health technology",
+        "skills": [
+          "Medical Knowledge",
+          "Patient Care",
+          "Research",
+          "Data Analysis",
+          "Healthcare Management"
+        ]
+      },
+      "location": {
+        "state": "Haryana",
+        "district": "Ambala"
+      },
+      "education_required": {
+        "id": "10th",
+        "name": "Class 10th Pass",
+        "weight": 1
+      },
+      "skills_required": [
+        "Mobile Apps",
+        "Internet Usage",
+        "Data Entry",
+        "Computer Basics",
+        "Regional Language"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Full-time",
+      "description": "Internship opportunity in Healthcare sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_004",
+      "title": "Associate Officer",
+      "company": "India Ltd",
+      "sector": {
+        "id": "banking_finance",
+        "name": "Banking & Financial Services",
+        "description": "Banking operations, financial analysis, insurance, fintech",
+        "skills": [
+          "Finance",
+          "Accounting",
+          "Customer Service",
+          "Data Analysis",
+          "Risk Management"
+        ]
+      },
+      "location": {
+        "state": "Karnataka",
+        "district": "Belgaum"
+      },
+      "education_required": {
+        "id": "iti",
+        "name": "ITI Certificate",
+        "weight": 3
+      },
+      "skills_required": [
+        "Accounting",
+        "Problem Solving",
+        "Internet Usage",
+        "Risk Management",
+        "Computer Basics"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Full-time",
+      "description": "Internship opportunity in Banking & Financial Services sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_005",
+      "title": "Associate Analyst",
+      "company": "ABC Solutions",
+      "sector": {
+        "id": "banking_finance",
+        "name": "Banking & Financial Services",
+        "description": "Banking operations, financial analysis, insurance, fintech",
+        "skills": [
+          "Finance",
+          "Accounting",
+          "Customer Service",
+          "Data Analysis",
+          "Risk Management"
+        ]
+      },
+      "location": {
+        "state": "West Bengal",
+        "district": "Howrah"
+      },
+      "education_required": {
+        "id": "diploma",
+        "name": "Diploma/Polytechnic",
+        "weight": 4
+      },
+      "skills_required": [
+        "Teamwork",
+        "Marketing",
+        "Regional Language",
+        "Problem Solving",
+        "Sales"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Part-time",
+      "description": "Internship opportunity in Banking & Financial Services sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_006",
+      "title": "Trainee Analyst",
+      "company": "Prime Industries",
+      "sector": {
+        "id": "retail_consumer",
+        "name": "Retail & Consumer Goods",
+        "description": "Retail operations, consumer products, e-commerce",
+        "skills": [
+          "Sales",
+          "Marketing",
+          "Customer Service",
+          "Operations",
+          "E-commerce"
+        ]
+      },
+      "location": {
+        "state": "Punjab",
+        "district": "Bathinda"
+      },
+      "education_required": {
+        "id": "iti",
+        "name": "ITI Certificate",
+        "weight": 3
+      },
+      "skills_required": [
+        "Basic English",
+        "Problem Solving",
+        "Marketing",
+        "Mathematics",
+        "MS Office"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Part-time",
+      "description": "Internship opportunity in Retail & Consumer Goods sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_007",
+      "title": "Junior Executive",
+      "company": "Global Corp",
+      "sector": {
+        "id": "agriculture",
+        "name": "Agriculture",
+        "description": "Farming, agricultural technology, food processing",
+        "skills": [
+          "Agricultural Knowledge",
+          "Research",
+          "Technology",
+          "Supply Chain",
+          "Sustainability"
+        ]
+      },
+      "location": {
+        "state": "Maharashtra",
+        "district": "Pune"
+      },
+      "education_required": {
+        "id": "graduation",
+        "name": "Bachelor's Degree",
+        "weight": 5
+      },
+      "skills_required": [
+        "Teamwork",
+        "Communication",
+        "Mathematics",
+        "Computer Basics",
+        "Internet Usage"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Full-time",
+      "description": "Internship opportunity in Agriculture sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_008",
+      "title": "Trainee Assistant",
+      "company": "XYZ Corp",
+      "sector": {
+        "id": "oil_gas_energy",
+        "name": "Oil, Gas & Energy",
+        "description": "Energy production, renewable energy, oil & gas operations",
+        "skills": [
+          "Engineering",
+          "Environmental Science",
+          "Project Management",
+          "Safety Management",
+          "Operations"
+        ]
+      },
+      "location": {
+        "state": "Chhattisgarh",
+        "district": "Bilaspur"
+      },
+      "education_required": {
+        "id": "graduation",
+        "name": "Bachelor's Degree",
+        "weight": 5
+      },
+      "skills_required": [
+        "Environmental Science",
+        "Communication",
+        "Operations",
+        "Mobile Apps",
+        "Basic English"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Full-time",
+      "description": "Internship opportunity in Oil, Gas & Energy sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_009",
+      "title": "Associate Executive",
+      "company": "Tech Solutions",
+      "sector": {
+        "id": "manufacturing",
+        "name": "Manufacturing & Industrial",
+        "description": "Industrial production, manufacturing processes, quality control",
+        "skills": [
+          "Manufacturing",
+          "Quality Control",
+          "Operations Management",
+          "Engineering",
+          "Logistics"
+        ]
+      },
+      "location": {
+        "state": "Odisha",
+        "district": "Cuttack"
+      },
+      "education_required": {
+        "id": "iti",
+        "name": "ITI Certificate",
+        "weight": 3
+      },
+      "skills_required": [
+        "Internet Usage",
+        "Teamwork",
+        "MS Office",
+        "Basic English",
+        "Communication"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Hybrid",
+      "description": "Internship opportunity in Manufacturing & Industrial sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_010",
+      "title": "Associate Executive",
+      "company": "Tech Ltd",
+      "sector": {
+        "id": "banking_finance",
+        "name": "Banking & Financial Services",
+        "description": "Banking operations, financial analysis, insurance, fintech",
+        "skills": [
+          "Finance",
+          "Accounting",
+          "Customer Service",
+          "Data Analysis",
+          "Risk Management"
+        ]
+      },
+      "location": {
+        "state": "Andhra Pradesh",
+        "district": "Visakhapatnam"
+      },
+      "education_required": {
+        "id": "10th",
+        "name": "Class 10th Pass",
+        "weight": 1
+      },
+      "skills_required": [
+        "Data Entry",
+        "Mathematics",
+        "Communication",
+        "Problem Solving",
+        "Sales"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Part-time",
+      "description": "Internship opportunity in Banking & Financial Services sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_011",
+      "title": "Trainee Analyst",
+      "company": "Global Ltd",
+      "sector": {
+        "id": "textile",
+        "name": "Textile & Garments",
+        "description": "Textile manufacturing, garment production, fashion",
+        "skills": [
+          "Design",
+          "Manufacturing",
+          "Quality Control",
+          "Fashion",
+          "Supply Chain"
+        ]
+      },
+      "location": {
+        "state": "Karnataka",
+        "district": "Bangalore"
+      },
+      "education_required": {
+        "id": "12th",
+        "name": "Class 12th Pass",
+        "weight": 2
+      },
+      "skills_required": [
+        "Mobile Apps",
+        "Quality Control",
+        "MS Office",
+        "Hindi",
+        "Communication"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Hybrid",
+      "description": "Internship opportunity in Textile & Garments sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_012",
+      "title": "Associate Executive",
+      "company": "Tech Corp",
+      "sector": {
+        "id": "healthcare",
+        "name": "Healthcare",
+        "description": "Medical services, pharmaceuticals, health technology",
+        "skills": [
+          "Medical Knowledge",
+          "Patient Care",
+          "Research",
+          "Data Analysis",
+          "Healthcare Management"
+        ]
+      },
+      "location": {
+        "state": "Tamil Nadu",
+        "district": "Salem"
+      },
+      "education_required": {
+        "id": "diploma",
+        "name": "Diploma/Polytechnic",
+        "weight": 4
+      },
+      "skills_required": [
+        "Patient Care",
+        "Problem Solving",
+        "Data Analysis",
+        "Time Management",
+        "Basic English"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Full-time",
+      "description": "Internship opportunity in Healthcare sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_013",
+      "title": "Junior Executive",
+      "company": "India Solutions",
+      "sector": {
+        "id": "retail_consumer",
+        "name": "Retail & Consumer Goods",
+        "description": "Retail operations, consumer products, e-commerce",
+        "skills": [
+          "Sales",
+          "Marketing",
+          "Customer Service",
+          "Operations",
+          "E-commerce"
+        ]
+      },
+      "location": {
+        "state": "Punjab",
+        "district": "Jalandhar"
+      },
+      "education_required": {
+        "id": "graduation",
+        "name": "Bachelor's Degree",
+        "weight": 5
+      },
+      "skills_required": [
+        "Internet Usage",
+        "E-commerce",
+        "Basic English",
+        "Teamwork",
+        "Regional Language"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Hybrid",
+      "description": "Internship opportunity in Retail & Consumer Goods sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_014",
+      "title": "Junior Executive",
+      "company": "Prime Ltd",
+      "sector": {
+        "id": "textile",
+        "name": "Textile & Garments",
+        "description": "Textile manufacturing, garment production, fashion",
+        "skills": [
+          "Design",
+          "Manufacturing",
+          "Quality Control",
+          "Fashion",
+          "Supply Chain"
+        ]
+      },
+      "location": {
+        "state": "Maharashtra",
+        "district": "Nashik"
+      },
+      "education_required": {
+        "id": "12th",
+        "name": "Class 12th Pass",
+        "weight": 2
+      },
+      "skills_required": [
+        "Regional Language",
+        "Computer Basics",
+        "Quality Control",
+        "Design",
+        "Manufacturing"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Hybrid",
+      "description": "Internship opportunity in Textile & Garments sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_015",
+      "title": "Trainee Officer",
+      "company": "ABC Solutions",
+      "sector": {
+        "id": "oil_gas_energy",
+        "name": "Oil, Gas & Energy",
+        "description": "Energy production, renewable energy, oil & gas operations",
+        "skills": [
+          "Engineering",
+          "Environmental Science",
+          "Project Management",
+          "Safety Management",
+          "Operations"
+        ]
+      },
+      "location": {
+        "state": "Jharkhand",
+        "district": "Ranchi"
+      },
+      "education_required": {
+        "id": "12th",
+        "name": "Class 12th Pass",
+        "weight": 2
+      },
+      "skills_required": [
+        "Data Entry",
+        "Basic English",
+        "MS Office",
+        "Engineering",
+        "Hindi"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Part-time",
+      "description": "Internship opportunity in Oil, Gas & Energy sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_016",
+      "title": "Associate Analyst",
+      "company": "India Industries",
+      "sector": {
+        "id": "retail_consumer",
+        "name": "Retail & Consumer Goods",
+        "description": "Retail operations, consumer products, e-commerce",
+        "skills": [
+          "Sales",
+          "Marketing",
+          "Customer Service",
+          "Operations",
+          "E-commerce"
+        ]
+      },
+      "location": {
+        "state": "Uttar Pradesh",
+        "district": "Lucknow"
+      },
+      "education_required": {
+        "id": "iti",
+        "name": "ITI Certificate",
+        "weight": 3
+      },
+      "skills_required": [
+        "Customer Service",
+        "Teamwork",
+        "Data Entry",
+        "Sales",
+        "Regional Language"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Part-time",
+      "description": "Internship opportunity in Retail & Consumer Goods sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_017",
+      "title": "Trainee Analyst",
+      "company": "Prime Corp",
+      "sector": {
+        "id": "banking_finance",
+        "name": "Banking & Financial Services",
+        "description": "Banking operations, financial analysis, insurance, fintech",
+        "skills": [
+          "Finance",
+          "Accounting",
+          "Customer Service",
+          "Data Analysis",
+          "Risk Management"
+        ]
+      },
+      "location": {
+        "state": "Maharashtra",
+        "district": "Aurangabad"
+      },
+      "education_required": {
+        "id": "diploma",
+        "name": "Diploma/Polytechnic",
+        "weight": 4
+      },
+      "skills_required": [
+        "Customer Service",
+        "Computer Basics",
+        "Time Management",
+        "Mobile Apps",
+        "Regional Language"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Full-time",
+      "description": "Internship opportunity in Banking & Financial Services sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_018",
+      "title": "Trainee Officer",
+      "company": "Global Corp",
+      "sector": {
+        "id": "it_software",
+        "name": "IT & Software Development",
+        "description": "Software development, IT services, digital solutions",
+        "skills": [
+          "Programming",
+          "Web Development",
+          "Database Management",
+          "Cybersecurity",
+          "Cloud Computing"
+        ]
+      },
+      "location": {
+        "state": "West Bengal",
+        "district": "Howrah"
+      },
+      "education_required": {
+        "id": "diploma",
+        "name": "Diploma/Polytechnic",
+        "weight": 4
+      },
+      "skills_required": [
+        "Cybersecurity",
+        "Marketing",
+        "Basic English",
+        "Regional Language",
+        "Internet Usage"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Hybrid",
+      "description": "Internship opportunity in IT & Software Development sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_019",
+      "title": "Associate Officer",
+      "company": "Tech Ltd",
+      "sector": {
+        "id": "agriculture",
+        "name": "Agriculture",
+        "description": "Farming, agricultural technology, food processing",
+        "skills": [
+          "Agricultural Knowledge",
+          "Research",
+          "Technology",
+          "Supply Chain",
+          "Sustainability"
+        ]
+      },
+      "location": {
+        "state": "Tamil Nadu",
+        "district": "Chennai"
+      },
+      "education_required": {
+        "id": "graduation",
+        "name": "Bachelor's Degree",
+        "weight": 5
+      },
+      "skills_required": [
+        "Mobile Apps",
+        "Regional Language",
+        "Marketing",
+        "Computer Basics",
+        "Agricultural Knowledge"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Hybrid",
+      "description": "Internship opportunity in Agriculture sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    },
+    {
+      "id": "INT_020",
+      "title": "Trainee Analyst",
+      "company": "XYZ Enterprises",
+      "sector": {
+        "id": "textile",
+        "name": "Textile & Garments",
+        "description": "Textile manufacturing, garment production, fashion",
+        "skills": [
+          "Design",
+          "Manufacturing",
+          "Quality Control",
+          "Fashion",
+          "Supply Chain"
+        ]
+      },
+      "location": {
+        "state": "Gujarat",
+        "district": "Surat"
+      },
+      "education_required": {
+        "id": "diploma",
+        "name": "Diploma/Polytechnic",
+        "weight": 4
+      },
+      "skills_required": [
+        "Customer Service",
+        "Sales",
+        "Communication",
+        "Basic English",
+        "Marketing"
+      ],
+      "stipend": 5000,
+      "duration_months": 12,
+      "type": "Part-time",
+      "description": "Internship opportunity in Textile & Garments sector with hands-on experience and mentorship.",
+      "benefits": [
+        "Monthly stipend of ₹5,000",
+        "One-time grant of ₹6,000",
+        "Insurance coverage",
+        "Certificate",
+        "Industry exposure"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" data-color-scheme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM Internship Scheme - Find Your Perfect Internship</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Welcome Page -->
+    <div id="welcomePage" class="page active">
+        <div class="container">
+            <div class="welcome-header">
+                <div class="pm-logo">
+                    <div class="flag-colors">
+                        
+                    </div>
+                    <h1>PM Internship Scheme</h1>
+                    <p class="hindi-text">प्रधानमंत्री इंटर्नशिप योजना</p>
+                </div>
+            </div>
+            
+            <div class="welcome-content">
+                <h2>Find Your Perfect Internship</h2>
+                <p>Get personalized internship recommendations based on your skills, education, and interests.</p>
+                <p>Start your career journey with Government of India's PM Internship Scheme.</p>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <span class="benefit-icon">💰</span>
+                        <span>₹5,000 Monthly Stipend</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🎓</span>
+                        <span>Certificate & Training</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🏢</span>
+                        <span>Top Companies</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🌍</span>
+                        <span>Pan India Opportunities</span>
+                    </div>
+                </div>
+                
+                <button class="btn btn--primary btn--lg btn--full-width" onclick="startApplication()">
+                    Start Finding Internships
+                    <br><span class="hindi-small">इंटर्नशिप खोजना शुरू करें</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile Form Page -->
+    <div id="profilePage" class="page">
+        <div class="container">
+            <div class="form-header">
+                <button class="back-btn" onclick="goBack()">← Back</button>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressBar"></div>
+                    </div>
+                    <span class="progress-text" id="progressText">Step 1 of 4</span>
+                </div>
+            </div>
+
+            <form id="profileForm">
+                <!-- Step 1: Personal Information -->
+                <div class="form-step active" id="step1">
+                    <h2>Personal Information</h2>
+                    <p class="step-description">Tell us about yourself</p>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Full Name / पूरा नाम</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Age / उम्र</label>
+                        <select class="form-control" id="age" required>
+                            <option value="">Select your age</option>
+                            <option value="18">18 years</option>
+                            <option value="19">19 years</option>
+                            <option value="20">20 years</option>
+                            <option value="21">21 years</option>
+                            <option value="22">22 years</option>
+                            <option value="23">23 years</option>
+                            <option value="24">24 years</option>
+                            <option value="25">25 years</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Gender / लिंग</label>
+                        <div class="gender-options">
+                            <label class="gender-option">
+                                <input type="radio" name="gender" value="male" required>
+                                <div class="gender-card">
+                                    <span class="gender-icon">👨</span>
+                                    <span>Male / पुरुष</span>
+                                </div>
+                            </label>
+                            <label class="gender-option">
+                                <input type="radio" name="gender" value="female" required>
+                                <div class="gender-card">
+                                    <span class="gender-icon">👩</span>
+                                    <span>Female / महिला</span>
+                                </div>
+                            </label>
+                            <label class="gender-option">
+                                <input type="radio" name="gender" value="other" required>
+                                <div class="gender-card">
+                                    <span class="gender-icon">👤</span>
+                                    <span>Other / अन्य</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <button type="button" class="btn btn--primary btn--full-width" onclick="nextStep()">
+                        Next / आगे
+                    </button>
+                </div>
+
+                <!-- Step 2: Education Background -->
+                <div class="form-step" id="step2">
+                    <h2>Education Background</h2>
+                    <p class="step-description">Your educational qualifications</p>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Highest Education Level / शिक्षा स्तर</label>
+                        <div class="education-grid">
+                            <label class="education-option">
+                                <input type="radio" name="education" value="10th" required>
+                                <div class="education-card">
+                                    <span class="education-icon">📚</span>
+                                    <h3>Class 10th Pass</h3>
+                                    <p>कक्षा 10वीं उत्तीर्ण</p>
+                                </div>
+                            </label>
+                            <label class="education-option">
+                                <input type="radio" name="education" value="12th" required>
+                                <div class="education-card">
+                                    <span class="education-icon">🎓</span>
+                                    <h3>Class 12th Pass</h3>
+                                    <p>कक्षा 12वीं उत्तीर्ण</p>
+                                </div>
+                            </label>
+                            <label class="education-option">
+                                <input type="radio" name="education" value="iti" required>
+                                <div class="education-card">
+                                    <span class="education-icon">🔧</span>
+                                    <h3>ITI Certificate</h3>
+                                    <p>आईटीआई प्रमाणपत्र</p>
+                                </div>
+                            </label>
+                            <label class="education-option">
+                                <input type="radio" name="education" value="diploma" required>
+                                <div class="education-card">
+                                    <span class="education-icon">🏭</span>
+                                    <h3>Diploma/Polytechnic</h3>
+                                    <p>डिप्लोमा/पॉलिटेक्निक</p>
+                                </div>
+                            </label>
+                            <label class="education-option">
+                                <input type="radio" name="education" value="graduation" required>
+                                <div class="education-card">
+                                    <span class="education-icon">🎯</span>
+                                    <h3>Bachelor's Degree</h3>
+                                    <p>स्नातक की डिग्री</p>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-navigation">
+                        <button type="button" class="btn btn--outline" onclick="prevStep()">Previous</button>
+                        <button type="button" class="btn btn--primary" onclick="nextStep()">Next</button>
+                    </div>
+                </div>
+
+                <!-- Step 3: Location Preferences -->
+                <div class="form-step" id="step3">
+                    <h2>Location Preferences</h2>
+                    <p class="step-description">Where would you like to work?</p>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Preferred State / पसंदीदा राज्य</label>
+                        <select class="form-control" id="preferredState" required>
+                            <option value="">Select your preferred state</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Kerala">Kerala</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="West Bengal">West Bengal</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                            <option value="Odisha">Odisha</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Chhattisgarh">Chhattisgarh</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Willing to relocate? / स्थानांतरित होने को तैयार?</label>
+                        <div class="toggle-group">
+                            <label class="toggle-option">
+                                <input type="radio" name="relocate" value="yes" required>
+                                <span class="toggle-btn">Yes / हाँ</span>
+                            </label>
+                            <label class="toggle-option">
+                                <input type="radio" name="relocate" value="no" required>
+                                <span class="toggle-btn">No / नहीं</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Work Mode Preference / कार्य मोड प्राथमिकता</label>
+                        <div class="work-mode-grid">
+                            <label class="work-mode-option">
+                                <input type="radio" name="workMode" value="onsite" required>
+                                <div class="work-mode-card">
+                                    <span class="work-mode-icon">🏢</span>
+                                    <span>On-site</span>
+                                    <small>ऑफिस में</small>
+                                </div>
+                            </label>
+                            <label class="work-mode-option">
+                                <input type="radio" name="workMode" value="remote" required>
+                                <div class="work-mode-card">
+                                    <span class="work-mode-icon">🏠</span>
+                                    <span>Remote</span>
+                                    <small>घर से</small>
+                                </div>
+                            </label>
+                            <label class="work-mode-option">
+                                <input type="radio" name="workMode" value="hybrid" required>
+                                <div class="work-mode-card">
+                                    <span class="work-mode-icon">🔄</span>
+                                    <span>Hybrid</span>
+                                    <small>मिश्रित</small>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-navigation">
+                        <button type="button" class="btn btn--outline" onclick="prevStep()">Previous</button>
+                        <button type="button" class="btn btn--primary" onclick="nextStep()">Next</button>
+                    </div>
+                </div>
+
+                <!-- Step 4: Interests & Skills -->
+                <div class="form-step" id="step4">
+                    <h2>Interests & Skills</h2>
+                    <p class="step-description">What sectors interest you and what skills do you have?</p>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Sector Interests / रुचि के क्षेत्र (Select up to 3)</label>
+                        <div class="sector-grid" id="sectorGrid">
+                            <!-- Sectors will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Your Skills / आपके कौशल (Select all that apply)</label>
+                        <div class="skills-grid" id="skillsGrid">
+                            <!-- Skills will be populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <div class="form-navigation">
+                        <button type="button" class="btn btn--outline" onclick="prevStep()">Previous / पिछला</button>
+                        <button type="button" class="btn btn--primary btn--lg" onclick="generateRecommendations()">
+                            Get Recommendations / सिफारिशें प्राप्त करें
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Recommendations Page -->
+    <div id="recommendationsPage" class="page">
+        <div class="container">
+            <div class="recommendations-header">
+                <button class="back-btn" onclick="goBackToForm()">← Back to Form</button>
+                <h2>Your Personalized Recommendations</h2>
+                <p>Based on your profile, here are the best matching internships</p>
+            </div>
+            
+            <div class="loading-state hidden" id="loadingState">
+                <div class="loading-spinner"></div>
+                <p>Finding the best internships for you...</p>
+                <p class="hindi-text">आपके लिए सर्वोत्तम इंटर्नशिप खोजी जा रही है...</p>
+            </div>
+            
+            <div class="recommendations-container" id="recommendationsContainer">
+                <!-- Recommendations will be populated by JavaScript -->
+            </div>
+            
+            <div class="recommendations-footer">
+                <button class="btn btn--outline btn--full-width" onclick="goBackToForm()">
+                    Modify Profile / प्रोफाइल संशोधित करें
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
